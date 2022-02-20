@@ -16,7 +16,7 @@ def main():
 		submit = st.form_submit_button(label='Submit')
 
 	if submit:
-		st.session_state.song = text
+		st.session_state.song = text.replace('\n', '\n\n')
 		st.write(st.session_state.song)
 
 	if transpose_down:
