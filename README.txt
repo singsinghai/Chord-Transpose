@@ -1,1 +1,0 @@
-An app to tranpose with chords on lyrics agreeing the required format.
